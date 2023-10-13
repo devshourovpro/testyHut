@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testy hut</title>
+    <!-- font icons  -->
+    <script src="https://kit.fontawesome.com/17d2b766b0.js" crossorigin="anonymous"></script>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- navbar  -->
+        <nav class="navbar bg-white container-fluid start-25 fixed-top shadow mb-5">
+            <div class="container-lg">
+                <a class="navbar-brand"><img class="img-fluid" src="images/Tasty_HUT.png" alt=""></a>
+                <button class="btn btn-warning fw-semibold fs-6" type="submit">Sign Up</button>
+            </div>
+        </nav>
+        <!-- banner section  -->
+        <div class="pt-5 mt-5 vh-100 d-flex align-items-center"
+            style=" background: url(../images/banner_1.png), linear-gradient( rgba(0, 0, 0, 0.753),  rgba(0, 0, 0, 0.479)); background-blend-mode: overlay; background-position: center; background-repeat: no-repeat; background-size: cover;">
+            <div class="mx-auto text-center text-white">
+                <h1 class="fw-bold">Taste Our Delicious</h1>
+                <h1 class="fw-bold">Best Foods</h1>
+                <p><span class="d-lg-block">There are many variations of passages of Lorem Ipsum available, but the
+                        majority</span> <span class="d-lg-block">have suffered
+                        alteration
+                        in some form, by injected humou.</span> </p>
+                <nav class="navbar">
+                    <form class="container-fluid">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search any food" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            <button class="input-group-text bg-warning" id="basic-addon1">Search</button>
+                        </div>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- main section  -->
+    <main>
+        <!-- favorite food section  -->
+        <section class="container-lg py-5 my-5">
+            <h1 class="text-center mb-5 text-black fw-bolder">Your Favorite Food</h1>
+            <div id="food-container" class="row row-cols-lg-2 gap-5 mt-5">
+                <!-- <div class="row align-items-center">
+                    <div class="col-6">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla sed, magnam repellat
+                                aut cum voluptate temporibus nostrum nesciunt, deserunt facilis voluptates pariatur
+                                necessitatibus minus distinctio provident sunt? Magnam voluptates eum culpa aliquam aut
+                                fugiat velit dicta laudantium, dolore tempore est nobis itaque assumenda, quis maiores
+                                dolorem ipsa tenetur totam. Quas facilis facere accusamus vero ipsa sit, repellendus
+                                illum deleniti quisquam, laudantium enim quibusdam dignissimos id consectetur corporis
+                                in molestias reiciendis officia voluptatem cumque placeat. Corporis iste, sint quidem
+                                blanditiis dolor provident placeat nesciunt reprehenderit officiis consectetur dolore
+                                excepturi natus fugiat autem mollitia eaque aspernatur nisi repudiandae neque animi vel.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <img src="images/Tasty_HUT.png" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+            <div class="text-center mt-5">
+                <button id="seeAllBtn" class="btn btn-warning fw-semibold fs-6 " type="submit">See All</button>
+            </div>
+        </section>
+        <!-- modal -->
+        <div class="modal fade" id="foodModal" tabindex="-1" aria-labelledby="foodModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="foodModalLabel"></h1>
+                  <button type="button" class="btn-close bg-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="details-body" class="modal-body">
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </main>
+
+
+
+    <!-- scripts  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/testyHut.js"></script>
+</body>
+
+</html>
